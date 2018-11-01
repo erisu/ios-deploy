@@ -114,9 +114,11 @@ device_desc device_db[] = {
                           ADD_DEVICE("D211AP", "iPhone 8 Plus",              "iphoneos", "arm64"),
                           ADD_DEVICE("D22AP",  "iPhone X",                   "iphoneos", "arm64"),
                           ADD_DEVICE("D221AP", "iPhone X",                   "iphoneos", "arm64"),
+                          ADD_DEVICE("D321AP", "iPhone XS",                  "iphoneos", "arm64"),
+                          ADD_DEVICE("D331AP", "iPhone XS Max",              "iphoneos", "arm64"),
+                          ADD_DEVICE("D331pAP", "iPhone XS Max",             "iphoneos", "arm64"),
 
                           // Apple TV
-
                           ADD_DEVICE("K66AP",  "Apple TV 2G",                "appletvos", "armv7"),
                           ADD_DEVICE("J33AP",  "Apple TV 3G",                "appletvos", "armv7"),
                           ADD_DEVICE("J33IAP", "Apple TV 3.1G",              "appletvos", "armv7"),

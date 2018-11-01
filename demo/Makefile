@@ -1,7 +1,5 @@
-IOS_SDK_VERSION = 12.0
-
 IOS_CC = gcc -ObjC
-IOS_SDK = $(shell xcode-select --print-path)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS$(IOS_SDK_VERSION).sdk
+IOS_SDK = $(shell xcode-select --print-path)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk
 
 all: clean demo.app
 
